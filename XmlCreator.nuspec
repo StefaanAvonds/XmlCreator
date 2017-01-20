@@ -3,18 +3,16 @@
   <metadata>
     <id>XmlCreator</id>
     <version>1.0.0</version>
-    <authors>stefaan.avonds</authors>
-    <owners>stefaan.avonds</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <authors>Stefaan Avonds</authors>
+    <owners>Stefaan Avonds</owners>
+    <projectUrl>https://github.com/StefaanAvonds/XmlCreator</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Package description</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <description>Create a default XML-document for Windows.</description>
     <copyright>Copyright 2017</copyright>
-    <tags>Tag1 Tag2</tags>
-    <dependencies>
-      <dependency id="SampleDependency" version="1.0" />
-    </dependencies>
+    <tags>XML creator</tags>
   </metadata>
+  <files>
+	<file src="XmlCreator\bin\Release\XmlCreator.dll" target="lib" />
+	<file src="XmlCreator\bin\Release\XmlCreator.xml" target="lib" />
+  </files>
 </package>
