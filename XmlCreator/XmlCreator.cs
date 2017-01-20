@@ -82,6 +82,7 @@ namespace XmlCreator
         private string GetDefaultFilePath()
         {
             string localAppData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+
             string configurationFileDirectory = Path.Combine(localAppData, "XmlCreator");
 
             if (!Directory.Exists(configurationFileDirectory)) Directory.CreateDirectory(configurationFileDirectory);
